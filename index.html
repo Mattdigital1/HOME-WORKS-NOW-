@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Works Now | Generator, Electrical & Plumbing Experts – Naples, FL</title>
+  <meta name="description" content="Naples, FL's #1 Generac authorized dealer. Whole-home generator installation, electrical, plumbing & gas services. Licensed & insured. 24/7 emergency. Call (239) 288-2911." />
+  <meta name="keywords" content="Generac generator Naples FL, electrician Naples Florida, generator installation Collier County, backup power Naples, standby generator Naples Florida" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.homeworksnow.com/" />
+  <meta property="og:title" content="Home Works Now | Naples FL Generator & Electrical Experts" />
+  <meta property="og:description" content="Authorized Generac dealer. Generator installation, electrical, plumbing & gas. Serving Naples & SW Florida. Call (239) 288-2911." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.homeworksnow.com/" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Home Works Now",
+    "url": "https://www.homeworksnow.com",
+    "description": "Naples FL licensed contractor for Generac generator installation, electrical, plumbing and gas services. Authorized Generac dealer.",
+    "telephone": "+1-239-288-2911",
+    "email": "info@homeworksnow.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "260 Rose Blvd",
+      "addressLocality": "Naples",
+      "addressRegion": "FL",
+      "postalCode": "34119",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:30", "closes": "16:00" }
+    ],
+    "areaServed": ["Naples","North Naples","Marco Island","Collier County","Estero","Bonita Springs","Fort Myers"]
+  }
+  </script>
+
+  <style>
+    /* ── Homepage Hero ── */
+    .hero {
+      background:
+        linear-gradient(140deg, rgba(10,24,48,0.87) 0%, rgba(15,32,68,0.80) 50%, rgba(22,52,104,0.75) 100%),
+        url("images/truck-hero.jpg") center 60% / cover no-repeat;
+      color: var(--white);
+      padding: 96px 0 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before { display: none; }
+    .hero-lightning {
+      position: absolute; right: -30px; top: 50%;
+      transform: translateY(-50%);
+      width: 400px; height: 400px; opacity: .035;
+      pointer-events: none;
+    }
+    .hero-lightning .ico { width: 100%; height: 100%; }
+    .hero-inner {
+      position: relative; z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 64px; align-items: center;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(249,115,22,.2); border: 1px solid rgba(249,115,22,.38);
+      color: #fdb97d; font-size: .78rem; font-weight: 700;
+      letter-spacing: .08em; text-transform: uppercase;
+      padding: 6px 14px; border-radius: 99px; margin-bottom: 18px;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      font-weight: 900; line-height: 1.1; margin-bottom: 20px;
+    }
+    .hero h1 span { color: var(--orange); }
+    .hero-desc { font-size: 1.1rem; color: rgba(255,255,255,.8); margin-bottom: 34px; max-width: 540px; }
+    .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+    .hero-trust {
+      display: flex; gap: 28px; margin-top: 44px; flex-wrap: wrap;
+    }
+    .trust-item {
+      display: flex; align-items: center; gap: 9px;
+      font-size: .87rem; color: rgba(255,255,255,.72);
+    }
+    .trust-icon {
+      width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255,255,255,.1);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .trust-icon .ico { width: 18px; height: 18px; }
+
+    /* Hero Form Card */
+    .hero-card {
+      background: var(--white); border-radius: var(--radius-lg);
+      padding: 0; box-shadow: var(--shadow-lg); color: var(--text);
+      overflow: hidden;
+    }
+    .hero-card-header {
+      background: var(--navy); padding: 20px 28px; text-align: center;
+    }
+    .hero-card-header h3 { color: var(--white); font-size: 1.1rem; font-weight: 800; margin-bottom: 3px; }
+    .hero-card-header p  { color: rgba(255,255,255,.68); font-size: .82rem; }
+    .hero-card-body { padding: 26px 28px; }
+
+    /* ── Why Generators (home) ── */
+    .why-gen { background: var(--gray50); }
+    .why-gen-inner {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+    }
+    .why-gen-list { display: flex; flex-direction: column; gap: 18px; margin: 24px 0 32px; }
+    .why-gen-item { display: flex; gap: 14px; align-items: flex-start; }
+    .wgi-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: rgba(249,115,22,.1); border: 1.5px solid rgba(249,115,22,.2);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; color: var(--orange);
+    }
+    .wgi-icon .ico { width: 22px; height: 22px; }
+    .wgi-body h4 { font-size: .97rem; font-weight: 700; color: var(--navy); margin-bottom: 3px; }
+    .wgi-body p  { font-size: .87rem; color: var(--gray600); }
+
+    .storm-card {
+      background: var(--navy); border-radius: var(--radius-lg);
+      padding: 36px 32px; color: var(--white);
+      position: relative; overflow: hidden;
+    }
+    .storm-card::after { content: ''; position: absolute; right: -10px; bottom: -20px; width: 130px; height: 130px; opacity: .06; pointer-events: none; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.5'%3E%3Cpath d='M12 2a10 10 0 000 20A10 10 0 0012 2zm0 4a6 6 0 110 12A6 6 0 0112 6z'/%3E%3C/svg%3E") center/contain no-repeat; }
+    .storm-card h3 { font-size: 1.3rem; font-weight: 800; margin-bottom: 12px; }
+    .storm-card p  { color: rgba(255,255,255,.72); font-size: .93rem; margin-bottom: 20px; line-height: 1.7; }
+    .storm-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+    .storm-stat { background: rgba(255,255,255,.08); border-radius: 10px; padding: 16px; text-align: center; }
+    .storm-stat-num  { font-size: 1.6rem; font-weight: 900; color: var(--orange); }
+    .storm-stat-label{ font-size: .78rem; color: rgba(255,255,255,.65); margin-top: 2px; }
+
+    /* ── Services Grid ── */
+    .services { background: var(--white); }
+    .services-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 26px; }
+    .service-card { background: var(--white); border-radius: var(--radius); padding: 30px 26px; box-shadow: var(--shadow); transition: var(--t); border-bottom: 4px solid transparent; }
+    .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-bottom-color: var(--orange); }
+    .service-card.featured { background: var(--navy); border-bottom-color: var(--orange); }
+    .service-card.featured h3 { color: var(--white); }
+    .service-card.featured p  { color: rgba(255,255,255,.7); }
+    .service-icon { width: 54px; height: 54px; border-radius: 12px; background: rgba(15,32,68,.08); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; color: var(--navy); }
+    .service-card.featured .service-icon { color: var(--orange); }
+    .service-icon .ico { width: 28px; height: 28px; }
+    .service-card.featured .service-icon { background: rgba(255,255,255,.1); }
+    .service-card h3 { font-size: 1.08rem; font-weight: 800; color: var(--navy); margin-bottom: 9px; }
+    .service-card p  { font-size: .88rem; color: var(--gray600); margin-bottom: 14px; }
+
+    /* ── Generac Brand Section ── */
+    .generac-strip {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 100%);
+      padding: 64px 0;
+    }
+    .generac-strip-inner {
+      display: flex; align-items: center;
+      justify-content: space-between; gap: 48px; flex-wrap: wrap;
+    }
+    .generac-strip h2 { font-size: clamp(1.6rem,3.5vw,2.2rem); font-weight: 900; color: var(--white); margin-bottom: 10px; }
+    .generac-strip p  { color: rgba(255,255,255,.74); font-size: .97rem; max-width: 480px; }
+    .generac-badges   { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .gen-badge {
+      display: flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14);
+      border-radius: 8px; padding: 10px 16px;
+      font-size: .85rem; font-weight: 600; color: rgba(255,255,255,.85);
+    }
+
+    /* ── Testimonials ── */
+    .testimonials { background: var(--gray50); }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
+
+    /* ── Areas snippet ── */
+    .areas-strip { background: var(--white); padding: 64px 0; }
+    .area-grid   { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-top: 28px; }
+
+    /* ── Why Us ── */
+    .why-us { background: var(--gray50); }
+    .why-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; }
+    .why-item-card {
+      background: var(--white); border-radius: var(--radius);
+      padding: 28px 24px; box-shadow: var(--shadow);
+      display: flex; gap: 16px; align-items: flex-start;
+    }
+    .why-icon { width: 28px; height: 28px; flex-shrink: 0; color: var(--orange); }
+    .why-icon .ico { width: 28px; height: 28px; }
+    .why-item-card h4 { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 5px; }
+    .why-item-card p  { font-size: .88rem; color: var(--gray600); }
+
+    @media (max-width: 1024px) {
+      .hero-inner     { grid-template-columns: 1fr; }
+      .hero-card      { max-width: 520px; }
+      .hero-lightning { display: none; }
+      .why-gen-inner  { grid-template-columns: 1fr; }
+      .services-grid  { grid-template-columns: repeat(2,1fr); }
+      .testimonials-grid { grid-template-columns: 1fr 1fr; }
+      .area-grid      { grid-template-columns: repeat(2,1fr); }
+      .why-grid       { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 768px) {
+      .hero { padding: 60px 0; }
+      .hero-trust { flex-direction: column; gap: 12px; }
+      .services-grid     { grid-template-columns: 1fr; }
+      .testimonials-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-inner">
+        <div class="topbar-items">
+          <div class="topbar-item"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Naples, FL 34119</div>
+          <div class="topbar-item"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Mon–Fri 8:30am–4:00pm</div>
+        </div>
+        <div class="topbar-items">
+          <a href="mailto:info@homeworksnow.com" class="topbar-item"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> info@homeworksnow.com</a>
+          <span class="badge-emergency"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> 24/7 Emergency Service</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="logo" aria-label="Home Works Now">
+          <img src="images/logo.png" alt="Home Works Now" class="logo-img" />
+        </a>
+        <button class="nav-toggle" aria-label="Open menu" onclick="document.querySelector('nav').classList.toggle('open')">
+          <span></span><span></span><span></span>
+        </button>
+        <nav>
+          <a href="index.html" class="active">Home</a>
+          <div class="nav-dropdown">
+            <span class="nav-dropdown-trigger" onclick="toggleDropdown(this)">Generators ▾</span>
+            <div class="nav-dropdown-menu">
+              <a href="generators.html"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Generator Installation</a>
+              <a href="generator-service.html"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg> Maintenance &amp; Repair</a>
+            </div>
+          </div>
+          <a href="services.html">Services</a>
+          <div class="nav-dropdown">
+            <span class="nav-dropdown-trigger" onclick="toggleDropdown(this)">Service Areas ▾</span>
+            <div class="nav-dropdown-menu">
+              <a href="locations/naples.html">Naples</a>
+              <a href="locations/north-naples.html">North Naples</a>
+              <a href="locations/bonita-springs.html">Bonita Springs</a>
+              <a href="locations/marco-island.html">Marco Island</a>
+              <a href="locations/fort-myers.html">Fort Myers</a>
+              <a href="locations/estero.html">Estero</a>
+            </div>
+          </div>
+          <a href="blog/index.html">Blog</a>
+          <a href="contact.html">Contact</a>
+          <a href="tel:+12392882911" class="btn btn-primary nav-cta"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .5h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.41a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.77z"/></svg> (239) 288-2911</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-lightning"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+    <div class="container">
+      <div class="hero-inner">
+        <div>
+          <div class="hero-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Authorized Generac Dealer · Naples, FL</div>
+          <h1>Naples' Trusted <span>Generator &amp; Home Services</span> Experts</h1>
+          <p class="hero-desc">Whole-home Generac standby generators, electrical, plumbing, and gas — all under one fully licensed roof. Don't wait until the next storm knocks out your power.</p>
+          <div class="hero-actions">
+            <a href="generators.html" class="btn btn-primary btn-lg">Get a Generator Quote</a>
+            <a href="tel:+12392882911" class="btn btn-outline"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .5h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.41a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.77z"/></svg> (239) 288-2911</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-item"><div class="trust-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>Fully Licensed &amp; Insured</div>
+            <div class="trust-item"><div class="trust-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>Generac Certified Installers</div>
+            <div class="trust-item"><div class="trust-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>24/7 Emergency Service</div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <h3>Free Generator Estimate</h3>
+            <p>Response within 1 business day</p>
+          </div>
+          <div class="hero-card-body">
+            <form action="contact.html" method="get">
+              <div class="form-group">
+                <label for="h-name">Your Name</label>
+                <input type="text" id="h-name" name="name" placeholder="John Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="h-phone">Phone Number</label>
+                <input type="tel" id="h-phone" name="phone" placeholder="(239) 000-0000" required />
+              </div>
+              <div class="form-group">
+                <label for="h-service">What do you need?</label>
+                <select id="h-service" name="service">
+                  <option value="">Select a service…</option>
+                  <option>Generator Installation</option>
+                  <option>Generator Maintenance / Repair</option>
+                  <option>Electrical Services</option>
+                  <option>EV Charger Installation</option>
+                  <option>Panel Upgrade</option>
+                  <option>Plumbing / Gas</option>
+                  <option>Emergency Service</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">Request Free Estimate →</button>
+            </form>
+            <p style="text-align:center;font-size:.78rem;color:var(--gray500);margin-top:12px;">No obligation · Free on-site assessment</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item"><div class="stat-number">500+</div><div class="stat-label">Generators Installed</div></div>
+        <div class="stat-item"><div class="stat-number">10+</div><div class="stat-label">Years Serving Naples</div></div>
+        <div class="stat-item"><div class="stat-number">24/7</div><div class="stat-label">Emergency Response</div></div>
+        <div class="stat-item"><div class="stat-number">4</div><div class="stat-label">Contractor Licenses Held</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Photo Gallery -->
+  <section class="photo-gallery">
+    <div class="container">
+      <div class="section-label">Real Jobs. Real Results.</div>
+      <h2 class="section-title">See Our Work Across Naples &amp; SW Florida</h2>
+      <div class="gallery-grid">
+        <img src="images/truck-hero.jpg" alt="Home Works Now branded truck — Generac Authorized Dealer" class="gallery-img gallery-wide" loading="lazy" />
+        <img src="images/team-generator-install.jpg" alt="Home Works Now crew installing a Generac generator" class="gallery-img gallery-tall" loading="lazy" />
+        <img src="images/generac-install.jpg" alt="Generac standby generator installation Naples FL" class="gallery-img" loading="lazy" />
+        <img src="images/propane-tank-install.jpg" alt="Underground propane tank installation" class="gallery-img" loading="lazy" />
+        <img src="images/generac-open.jpg" alt="Generac generator service and commissioning" class="gallery-img" loading="lazy" />
+        <img src="images/excavator-work.jpg" alt="Gas line trenching and installation Naples FL" class="gallery-img" loading="lazy" />
+        <img src="images/crew-vans.jpg" alt="Home Works Now crew and service vans Naples FL" class="gallery-img" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why You Need a Generator -->
+  <section class="why-gen">
+    <div class="container">
+      <div class="why-gen-inner">
+        <div>
+          <div class="section-label">Hurricane Season is Real</div>
+          <h2 class="section-title">One Storm Can Leave You Without Power for Days</h2>
+          <p class="section-sub">Naples and Southwest Florida are prime hurricane territory. Power outages lasting 3–14 days are common — and next time, a standby generator means you never have to worry.</p>
+          <div class="why-gen-list">
+            <div class="why-gen-item">
+              <div class="wgi-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+              <div class="wgi-body">
+                <h4>Automatic. No Action Required.</h4>
+                <p>A Generac standby generator detects an outage and turns on within seconds — while you're asleep, at work, or away from home.</p>
+              </div>
+            </div>
+            <div class="why-gen-item">
+              <div class="wgi-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5l-5 5-5-5"/><path d="M17 19l-5-5-5 5"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M5 7l5 5-5 5"/><path d="M19 7l-5 5 5 5"/></svg></div>
+              <div class="wgi-body">
+                <h4>Keep Your AC Running</h4>
+                <p>Florida heat is dangerous. A whole-home generator keeps your HVAC, refrigerator, medical equipment, and lights on through the storm.</p>
+              </div>
+            </div>
+            <div class="why-gen-item">
+              <div class="wgi-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+              <div class="wgi-body">
+                <h4>Protect Your Home's Value</h4>
+                <p>A permanently installed standby generator adds real estate value and gives buyers confidence in a storm-prone market.</p>
+              </div>
+            </div>
+          </div>
+          <a href="generators.html" class="btn btn-primary">See Our Generator Options →</a>
+        </div>
+
+        <div class="storm-card">
+          <h3>Southwest Florida Power Outage Facts</h3>
+          <p>Hurricane Ian (2022) left portions of Southwest Florida without power for up to 2 weeks. Collier and Lee counties are ranked among the highest hurricane-risk areas in the US.</p>
+          <div class="storm-stats">
+            <div class="storm-stat">
+              <div class="storm-stat-num">14</div>
+              <div class="storm-stat-label">Days without power after Ian in some areas</div>
+            </div>
+            <div class="storm-stat">
+              <div class="storm-stat-num">#1</div>
+              <div class="storm-stat-label">Generac is America's top-selling standby brand</div>
+            </div>
+            <div class="storm-stat">
+              <div class="storm-stat-num">10s</div>
+              <div class="storm-stat-label">Seconds to auto-start during an outage</div>
+            </div>
+            <div class="storm-stat">
+              <div class="storm-stat-num">7yr</div>
+              <div class="storm-stat-label">Extended warranty available through us</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">Our Services</div>
+        <h2 class="section-title">Everything Your Home Needs, One Call</h2>
+        <p class="section-sub">Licensed in electrical, plumbing, gas, and general contracting — we handle complex multi-trade jobs without subcontracting.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card featured">
+          <div class="service-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+          <h3>Generac Generator Installation</h3>
+          <p>Authorized Generac dealer. Factory-certified installation with permit management and 7-year extended warranty options.</p>
+          <a href="generators.html" class="card-link" style="color:var(--orange);">Learn more →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3>Generator Maintenance &amp; Repair</h3>
+          <p>Annual tune-ups, load testing, repairs, and 24/7 emergency generator service. Membership plans available.</p>
+          <a href="generator-service.html" class="card-link">Learn more →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12H2l10-10 10 10h-3v8H5v-8z"/></svg></div>
+          <h3>Electrical Services</h3>
+          <p>Panel upgrades, rewiring, surge protection, and more. Licensed electrical contractor serving all of Collier County.</p>
+          <a href="services.html#electrical" class="card-link">Learn more →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+          <h3>EV Charger Installation</h3>
+          <p>Level 2 home EV charger installation. Permit-managed, code-compliant, and compatible with all electric vehicles.</p>
+          <a href="services.html#ev" class="card-link">Learn more →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg></div>
+          <h3>Plumbing Services</h3>
+          <p>Licensed plumbers for leak repair, water heater installation, fixture replacement, and emergency plumbing calls.</p>
+          <a href="services.html#plumbing" class="card-link">Learn more →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z"/></svg></div>
+          <h3>Natural Gas &amp; Propane</h3>
+          <p>Gas line installation and extension for generators, appliances, and whole-home natural gas or LP systems.</p>
+          <a href="services.html#gas" class="card-link">Learn more →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Generac Strip -->
+  <div class="generac-strip">
+    <div class="container">
+      <div class="generac-strip-inner">
+        <div>
+          <h2>We're a Generac Authorized Dealer — That Matters.</h2>
+          <p>Buying from or hiring an unauthorized installer voids your Generac warranty. As an authorized dealer, every generator we install comes with factory-backed warranty coverage, certified installation, and registered ownership.</p>
+          <div class="generac-badges">
+            <div class="gen-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg> Generac Authorized Dealer</div>
+            <div class="gen-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Factory-Trained Installers</div>
+            <div class="gen-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg> 7-Year Warranty Available</div>
+            <div class="gen-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg> Mobile Link Monitoring Setup</div>
+          </div>
+        </div>
+        <div style="flex-shrink:0;">
+          <a href="generators.html" class="btn btn-primary btn-lg" style="margin-bottom:12px;display:flex;">Get Generator Quote →</a>
+          <a href="tel:+12392882911" class="btn btn-outline" style="display:flex;"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .5h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.41a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.77z"/></svg> Call Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Why Choose Us -->
+  <section class="why-us">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">Why Home Works Now</div>
+        <h2 class="section-title">One Contractor. Four Licenses. Zero Runaround.</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item-card">
+          <div class="why-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div>
+            <h4>Multi-Trade Licensed</h4>
+            <p>Electrical, General, Plumbing, and CAC licenses — we legally handle everything in-house. No subcontractors for core work.</p>
+          </div>
+        </div>
+        <div class="why-item-card">
+          <div class="why-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+          <div>
+            <h4>Generac Certified</h4>
+            <p>Factory-certified generator installers. Authorization means your warranty is valid and your installation is done right.</p>
+          </div>
+        </div>
+        <div class="why-item-card">
+          <div class="why-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 000 20A10 10 0 0012 2zm0 4a6 6 0 110 12A6 6 0 0112 6z"/><path d="M12 8a4 4 0 000 8 4 4 0 000-8z"/></svg></div>
+          <div>
+            <h4>Hurricane-Ready Experience</h4>
+            <p>We've seen what storms do to Naples homes. We stock inventory locally and prioritize urgent pre-storm installs.</p>
+          </div>
+        </div>
+        <div class="why-item-card">
+          <div class="why-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+          <div>
+            <h4>Honest &amp; Responsive</h4>
+            <p>Real people answer our phones. We show up on time, give clear estimates, and never pad bills with hidden charges.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">Reviews</div>
+        <h2 class="section-title">Trusted by Naples Homeowners</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"Amazing service from start to finish. The team was responsive, caring, and passionate about making sure our generator was installed correctly before hurricane season. I feel so much safer now."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">A</div>
+            <div><div class="reviewer-name">Abigail G.</div><div class="reviewer-detail">Naples, FL · Generator Installation</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"When Hurricane Ian knocked out power for days, our Generac kicked in within seconds. Home Works Now installed it the previous spring and we had total peace of mind. You can genuinely rely on them in an emergency."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">K</div>
+            <div><div class="reviewer-name">Ken B.</div><div class="reviewer-detail">Naples, FL · Post-Hurricane Experience</div></div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"Called for an electrical panel upgrade and they handled everything — permits, inspection, all of it. Professional crew, on time, explained every step. Highly recommend for any electrical work in Naples."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">M</div>
+            <div><div class="reviewer-name">Mike T.</div><div class="reviewer-detail">North Naples, FL · Panel Upgrade</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas -->
+  <section class="areas-strip">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">Where We Work</div>
+        <h2 class="section-title">Serving Southwest Florida</h2>
+        <p class="section-sub">Based in Naples, FL — our licensed crews cover Collier County and beyond.</p>
+      </div>
+      <div class="area-grid">
+        <div class="area-tag"><span class="area-dot"></span>Naples</div>
+        <div class="area-tag"><span class="area-dot"></span>North Naples</div>
+        <div class="area-tag"><span class="area-dot"></span>Marco Island</div>
+        <div class="area-tag"><span class="area-dot"></span>Collier County</div>
+        <div class="area-tag"><span class="area-dot"></span>Estero</div>
+        <div class="area-tag"><span class="area-dot"></span>Bonita Springs</div>
+        <div class="area-tag"><span class="area-dot"></span>Bonita Beach</div>
+        <div class="area-tag"><span class="area-dot"></span>Fort Myers</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta-banner">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-text">
+          <h2>Don't Wait for the Next Hurricane.<br>Get Protected Today.</h2>
+          <p>Free estimates · No obligation · Naples &amp; SW Florida · Fast response</p>
+        </div>
+        <div class="cta-actions">
+          <a href="generators.html" class="btn btn-white">Get a Generator Quote</a>
+          <a href="tel:+12392882911" class="btn btn-white-outline"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .5h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.41a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.77z"/></svg> (239) 288-2911</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="logo">
+            <img src="images/logo.png" alt="Home Works Now" class="logo-img" />
+          </div>
+          <p class="footer-desc">Your one-stop licensed contractor for Generac generator installation, electrical, plumbing, and gas services across Naples and Southwest Florida. Authorized Generac dealer.</p>
+          <div class="footer-licenses">
+            <span class="license-tag">EC13012310</span>
+            <span class="license-tag">CGC1528002</span>
+            <span class="license-tag">CFC1430417</span>
+            <span class="license-tag">CAC1820344</span>
+            <span class="license-tag">Generac Authorized Dealer</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Generator Services</h4>
+          <ul class="footer-links">
+            <li><a href="generators.html">Generator Installation</a></li>
+            <li><a href="generators.html#models">Generator Models</a></li>
+            <li><a href="generator-service.html">Maintenance Plans</a></li>
+            <li><a href="generator-service.html#repair">Generator Repair</a></li>
+            <li><a href="contact.html">Get a Quote</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Other Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#electrical">Electrical Services</a></li>
+            <li><a href="services.html#ev">EV Charger Installation</a></li>
+            <li><a href="services.html#panel">Panel Upgrades</a></li>
+            <li><a href="services.html#plumbing">Plumbing Services</a></li>
+            <li><a href="services.html#gas">Natural Gas &amp; Propane</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-item"><span class="fci-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .5h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.41a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.77z"/></svg></span><div class="fci-text"><a href="tel:+12392882911">(239) 288-2911</a></div></div>
+          <div class="footer-contact-item"><span class="fci-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span><div class="fci-text"><a href="mailto:info@homeworksnow.com">info@homeworksnow.com</a></div></div>
+          <div class="footer-contact-item"><span class="fci-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div class="fci-text">260 Rose Blvd<br>Naples, FL 34119</div></div>
+          <div class="footer-contact-item"><span class="fci-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span><div class="fci-text">Mon–Fri: 8:30am–4:00pm<br><strong style="color:var(--orange);">24/7 Emergency Line</strong></div></div>
+          <div class="footer-social"><a href="https://www.facebook.com/homeworksnowswfl" target="_blank" rel="noopener" aria-label="Facebook"> Facebook</a><a href="https://www.instagram.com/homeworksnowswfl" target="_blank" rel="noopener" aria-label="Instagram"> Instagram</a></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Home Works Now · 260 Rose Blvd, Naples, FL 34119</p>
+        <div class="footer-badges">
+          <span class="footer-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Generac Authorized</span>
+          <span class="footer-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Licensed &amp; Insured</span>
+          <span class="footer-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> 24/7 Emergency</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>function toggleDropdown(el){const d=el.parentElement,o=d.classList.contains('open');document.querySelectorAll('.nav-dropdown.open').forEach(x=>x.classList.remove('open'));if(!o)d.classList.add('open');}</script>
+</body>
+</html>
