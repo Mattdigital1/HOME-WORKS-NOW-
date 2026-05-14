@@ -1,0 +1,8 @@
+{
+  "name": "home-works-now",
+  "version": "1.0.0",
+  "description": "Home Works Now – Naples FL Generac Dealer Website",
+  "scripts": {
+    "build": "echo 'Static site – no build required'"
+  }
+}
