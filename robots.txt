@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Block access to backup/original assets
+Disallow: /images/logo_original.png
+
+Sitemap: https://www.homeworksnow.com/sitemap.xml
