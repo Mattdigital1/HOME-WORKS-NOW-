@@ -285,7 +285,10 @@
               <h3>Schedule Generator Service</h3>
               <p>Quick response · Certified technicians</p>
             </div>
-            <form action="contact.html" method="get" style="margin-top:4px;">
+            <form action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST" style="margin-top:4px;">
+              <input type="hidden" name="_replyto" value="info@homeworksnow.com" />
+              <input type="hidden" name="_subject" value="New Estimate Request – Home Works Now" />
+              <input type="hidden" name="_next" value="https://www.homeworksnow.com/contact.html?sent=1" />
               <div class="form-group">
                 <label for="sv-name">Your Name</label>
                 <input type="text" id="sv-name" name="name" placeholder="John Smith" required />

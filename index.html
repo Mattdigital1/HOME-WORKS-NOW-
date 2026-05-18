@@ -389,7 +389,10 @@
             <p>Response within 1 business day</p>
           </div>
           <div class="hero-card-body">
-            <form action="contact.html" method="get">
+            <form action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST">
+              <input type="hidden" name="_replyto" value="info@homeworksnow.com" />
+              <input type="hidden" name="_subject" value="New Estimate Request – Home Works Now" />
+              <input type="hidden" name="_next" value="https://www.homeworksnow.com/contact.html?sent=1" />
               <div class="form-group">
                 <label for="h-name">Your Name</label>
                 <input type="text" id="h-name" name="name" placeholder="John Smith" required />
