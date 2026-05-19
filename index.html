@@ -402,6 +402,10 @@
                 <input type="tel" id="h-phone" name="phone" placeholder="(239) 000-0000" required />
               </div>
               <div class="form-group">
+                <label for="h-address">Property Address</label>
+                <input type="text" id="h-address" name="address" placeholder="123 Main St, Naples, FL" />
+              </div>
+              <div class="form-group">
                 <label for="h-service">What do you need?</label>
                 <select id="h-service" name="service">
                   <option value="">Select a service…</option>
@@ -412,6 +416,16 @@
                   <option>Panel Upgrade</option>
                   <option>Plumbing / Gas</option>
                   <option>Emergency Service</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="h-urgency">How soon do you need this?</label>
+                <select id="h-urgency" name="urgency">
+                  <option value="">Select…</option>
+                  <option>Emergency – Within 24–48 hours</option>
+                  <option>Within 2 weeks</option>
+                  <option>Within a month</option>
+                  <option>Planning ahead</option>
                 </select>
               </div>
               <button type="submit" class="btn btn-primary form-submit">Request Free Estimate →</button>
