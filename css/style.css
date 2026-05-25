@@ -668,6 +668,7 @@ footer {
   nav.open { display: flex; }
   nav a    { width: 100%; padding: 11px 14px; }
   .nav-toggle { display: flex; }
+  .nav-inner nav { flex: none; }
   .nav-cta { width: 100%; }
   .nav-cta .btn { width: 100%; justify-content: center; }
   header { position: relative; }
@@ -682,16 +683,21 @@ footer {
   .nav-dropdown.open .nav-dropdown-menu { display: flex; flex-direction: column; }
   .nav-dropdown-menu a { padding: 9px 12px; font-size: .88rem; }
   .article-cta-box { flex-direction: column; text-align: center; padding: 24px; }
-  .comparison-table { font-size: .82rem; }
+  .comparison-table { font-size: .82rem; overflow-x: auto; display: block; }
   .comparison-table th, .comparison-table td { padding: 9px 10px; }
   .form-row { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
   .cta-inner   { flex-direction: column; text-align: center; }
   .cta-actions { justify-content: center; }
   .page-hero-aside { display: none; }
+  .area-grid { grid-template-columns: 1fr 1fr; }
+  .quote-card { position: static; }
 }
 
 @media (max-width: 480px) {
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .btn-lg { padding: 14px 24px; font-size: 1rem; }
+  .area-grid { grid-template-columns: 1fr; }
+  .topbar-items:last-child { display: none; }
 }
