@@ -1,0 +1,23 @@
+Options -Indexes
+RewriteEngine On
+
+# Redirect www to non-www (or non-www to www — keep one canonical)
+# Uncomment if needed:
+# RewriteCond %{HTTP_HOST} ^www\.homeworksnow\.com [NC]
+# RewriteRule ^(.*)$ https://www.homeworksnow.com/$1 [R=301,L]
+
+# Serve extensionless URLs by appending .html
+# e.g. /generators → /generators.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ /$1.html [R=301,L]
+
+# Serve extensionless URLs in subdirectories (locations/, blog/)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.html -f
+RewriteRule ^(.+)$ /$1.html [R=301,L]
+
+# Custom 404 page
+ErrorDocument 404 /index.html
