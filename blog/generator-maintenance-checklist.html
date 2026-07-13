@@ -31,13 +31,26 @@
     ]
   }
   </script>
-  <!-- Google Ads Base Tag -->
+  <!-- Global site tag (gtag.js) - Google Ads -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-625813510"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'AW-625813510');
+
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-625813510/TXFzCIe8rekbEIbQtKoC',
+          'event_callback': callback
+      });
+      return false;
+    }
   </script>
 </head>
 <body>
@@ -192,19 +205,5 @@
           <span class="footer-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Generac Authorized</span><span class="footer-badge"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Licensed &amp; Insured</span></div></div>
   </div></footer>
   <script>function toggleDropdown(el){const d=el.parentElement,o=d.classList.contains('open');document.querySelectorAll('.nav-dropdown.open').forEach(x=>x.classList.remove('open'));if(!o)d.classList.add('open');}</script>
-  <script>
-  function gtag_report_conversion(url) {
-    var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-        'send_to': 'AW-625813510/TXFzCIe8rekbEIbQtKoC',
-        'event_callback': callback
-    });
-    return false;
-  }
-  </script>
 </body>
 </html>

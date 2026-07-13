@@ -168,13 +168,26 @@
       .membership-grid { max-width: 100%; }
     }
   </style>
-  <!-- Google Ads Base Tag -->
+  <!-- Global site tag (gtag.js) - Google Ads -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-625813510"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'AW-625813510');
+
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-625813510/TXFzCIe8rekbEIbQtKoC',
+          'event_callback': callback
+      });
+      return false;
+    }
   </script>
 </head>
 <body>
@@ -569,19 +582,5 @@
   </footer>
 
   <script>function toggleDropdown(el){const d=el.parentElement,o=d.classList.contains('open');document.querySelectorAll('.nav-dropdown.open').forEach(x=>x.classList.remove('open'));if(!o)d.classList.add('open');}</script>
-  <script>
-  function gtag_report_conversion(url) {
-    var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-        'send_to': 'AW-625813510/TXFzCIe8rekbEIbQtKoC',
-        'event_callback': callback
-    });
-    return false;
-  }
-  </script>
 </body>
 </html>
