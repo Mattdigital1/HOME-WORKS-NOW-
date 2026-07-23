@@ -701,3 +701,22 @@ footer {
   .area-grid { grid-template-columns: 1fr; }
   .topbar-items:last-child { display: none; }
 }
+
+/* ── Generac Authorized Dealer Badge (Header) ── */
+.logo-divider {
+  display: inline-block;
+  width: 1px;
+  height: 34px;
+  background: var(--gray200);
+  margin: 0 6px;
+  flex-shrink: 0;
+}
+.generac-badge-img {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+@media (max-width: 900px) {
+  .logo-divider, .generac-badge-img { display: none; }
+}

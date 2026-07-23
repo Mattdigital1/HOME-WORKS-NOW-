@@ -158,10 +158,12 @@
       .since-inner { grid-template-columns: 1fr 1fr; }
       .compare-table { font-size: .78rem; }
       .compare-table th, .compare-table td { padding: 10px 10px; }
+      .product-spotlight { grid-template-columns: 1fr !important; }
     }
     @media (max-width: 768px) {
       .since-inner { grid-template-columns: 1fr 1fr; }
       .compare-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      .product-spotlight { grid-template-columns: 1fr !important; padding: 24px !important; }
     }
     @media (max-width: 480px) {
       .since-inner { grid-template-columns: 1fr 1fr; }
@@ -214,6 +216,8 @@
       <div class="nav-inner">
         <a href="index.html" class="logo">
           <img src="images/logo.png" alt="Home Works Now" class="logo-img" />
+          <span class="logo-divider"></span>
+          <img src="images/Generac_AuthorizedDealer_HORIZ_COLOR.jpg" alt="Generac Authorized Dealer" class="generac-badge-img" />
         </a>
         <button class="nav-toggle" aria-label="Open menu" onclick="document.querySelector('nav').classList.toggle('open')">
           <span></span><span></span><span></span>
@@ -283,6 +287,22 @@
         <div class="section-label">Three Tier Options</div>
         <h2 class="section-title">Choose Your Protection Level</h2>
         <p class="section-sub">Every plan includes a certified annual maintenance visit. Upgrade for more included visits, monitoring, and lower emergency rates.</p>
+      </div>
+
+      <!-- Generac Product Spotlight -->
+      <div class="product-spotlight" style="display:grid;grid-template-columns:340px 1fr;gap:40px;align-items:center;background:var(--navy);border-radius:var(--radius-lg);padding:36px 40px;margin-bottom:48px;">
+        <img src="images/Stack_PowerProElitePlus.jpg" alt="Generac Power Pro Elite Plus generator" style="width:100%;border-radius:var(--radius);display:block;" loading="lazy" />
+        <div>
+          <div style="font-size:.72rem;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;">Installed &amp; Serviced by Home Works Now</div>
+          <h3 style="font-size:1.5rem;font-weight:900;color:var(--white);margin-bottom:12px;">Generac Power Pro Elite Plus</h3>
+          <p style="font-size:.92rem;color:rgba(255,255,255,.75);margin-bottom:20px;line-height:1.65;">We install and service the full Generac lineup — including their flagship Power Pro Elite Plus. Our membership plans keep your generator tuned, monitored, and under warranty no matter which model you own.</p>
+          <ul class="check-list white" style="font-size:.88rem;">
+            <li>Factory-certified technicians for every maintenance visit</li>
+            <li>Genuine Generac parts — never aftermarket</li>
+            <li>Mobile Link monitoring included on premium plans</li>
+            <li>Priority scheduling during hurricane season</li>
+          </ul>
+        </div>
       </div>
 
       <div class="membership-grid">

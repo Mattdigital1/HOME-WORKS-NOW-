@@ -132,6 +132,7 @@
       .models-grid   { grid-template-columns: 1fr; }
       .auth-cards    { grid-template-columns: 1fr; }
       .reviews-2-grid{ grid-template-columns: 1fr; }
+      .powerplus-grid { grid-template-columns: 1fr !important; }
     }
   </style>
   <script type="application/ld+json">
@@ -190,6 +191,8 @@
       <div class="nav-inner">
         <a href="index.html" class="logo">
           <img src="images/logo.png" alt="Home Works Now" class="logo-img" />
+          <span class="logo-divider"></span>
+          <img src="images/Generac_AuthorizedDealer_HORIZ_COLOR.jpg" alt="Generac Authorized Dealer" class="generac-badge-img" />
         </a>
         <button class="nav-toggle" aria-label="Open menu" onclick="document.querySelector('nav').classList.toggle('open')">
           <span></span><span></span><span></span>
@@ -276,7 +279,8 @@
   <!-- Photo Strip -->
   <div style="background:var(--gray50);padding:32px 0 0;">
     <div class="container">
-      <div class="photo-strip">
+      <div class="photo-strip" style="grid-template-columns:repeat(4,1fr);">
+        <img src="images/Hero AC HSB Hero Image 1_2025.jpg" alt="Generac Air-Cooled Home Standby Generator" loading="lazy" />
         <img src="images/generac-install.jpg" alt="Generac generator installation Naples FL" loading="lazy" />
         <img src="images/team-generator-install.jpg" alt="Home Works Now crew placing a Generac generator" loading="lazy" />
         <img src="images/generac-open.jpg" alt="Generac generator commissioning and testing" loading="lazy" />
@@ -459,7 +463,27 @@
 
       </div>
       <p style="text-align:center;color:var(--gray500);font-size:.88rem;margin-top:20px;">We also install 7kW, 13kW, 16kW, 20kW, and 24kW models. Contact us for full lineup and pricing.</p>
-      <div style="text-align:center;margin-top:24px;">
+
+      <!-- Power Pro Elite Plus Visual -->
+      <div class="powerplus-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;margin-top:48px;background:var(--white);border-radius:var(--radius-lg);padding:36px;box-shadow:var(--shadow);">
+        <div>
+          <img src="images/Stack_PowerProElitePlus.jpg" alt="Generac Power Pro Elite Plus generator" style="width:100%;border-radius:var(--radius);" />
+        </div>
+        <div>
+          <div style="font-size:.75rem;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px;">Featured Model</div>
+          <h3 style="font-size:1.4rem;font-weight:900;color:var(--navy);margin-bottom:12px;">Generac Power Pro Elite Plus</h3>
+          <p style="font-size:.92rem;color:var(--gray600);margin-bottom:16px;">The most capable air-cooled home standby generator in the Generac lineup. Designed for large homes, multiple HVAC units, and total whole-home coverage — even in extended outage scenarios.</p>
+          <ul class="check-list" style="font-size:.88rem;">
+            <li>True Power™ technology for clean sine wave output</li>
+            <li>WiFi-enabled Mobile Link remote monitoring</li>
+            <li>Quieter operation than older models</li>
+            <li>Backed by Generac's 7-year extended warranty</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary btn-sm" style="margin-top:18px;">Ask About This Model</a>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:32px;">
         <a href="contact.html" class="btn btn-primary btn-lg">Get Sized &amp; Quoted for Free</a>
       </div>
     </div>
@@ -481,6 +505,9 @@
             <li>Ongoing service and maintenance by the team that installed it</li>
           </ul>
           <a href="contact.html" class="btn btn-primary" style="margin-top:28px;">Schedule a Free Assessment</a>
+          <div style="margin-top:28px;border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.3);">
+            <img src="images/AC HSB Transfer Switch Bundle Image 2_2025.png" alt="Generac Transfer Switch Bundle – automatic transfer to backup power" style="width:100%;display:block;" />
+          </div>
         </div>
         <div class="auth-cards">
           <div class="auth-card">
