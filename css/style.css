@@ -218,18 +218,18 @@ footer .logo-img { height: 48px; filter: brightness(0) invert(1); }
   .gallery-img { height: 180px; }
 }
 
-nav { display: flex; align-items: center; gap: 2px; }
+nav { display: flex; align-items: center; gap: 0; }
 nav a {
-  padding: 8px 13px;
+  padding: 8px 9px;
   border-radius: 6px;
-  font-size: .88rem;
+  font-size: .84rem;
   font-weight: 600;
   color: var(--gray800);
   transition: var(--t);
 }
 nav a:hover, nav a.active { color: var(--navy); background: var(--gray100); }
 nav a.active { color: var(--orange); background: var(--orange-lt); }
-.nav-cta { margin-left: 8px; }
+.nav-cta { margin-left: 4px; }
 
 .nav-toggle {
   display: none;
@@ -557,8 +557,8 @@ footer {
 /* ── Dropdown Navigation ── */
 .nav-dropdown { position: relative; }
 .nav-dropdown-trigger {
-  padding: 8px 13px; border-radius: 6px;
-  font-size: .88rem; font-weight: 600; color: var(--gray800);
+  padding: 8px 9px; border-radius: 6px;
+  font-size: .84rem; font-weight: 600; color: var(--gray800);
   cursor: pointer; display: flex; align-items: center; gap: 4px;
   transition: var(--t); user-select: none;
 }

@@ -129,10 +129,11 @@
       .process-inner { grid-template-columns: 1fr; }
     }
     @media (max-width: 768px) {
-      .models-grid   { grid-template-columns: 1fr; }
-      .auth-cards    { grid-template-columns: 1fr; }
-      .reviews-2-grid{ grid-template-columns: 1fr; }
+      .models-grid    { grid-template-columns: 1fr; }
+      .auth-cards     { grid-template-columns: 1fr; }
+      .reviews-2-grid { grid-template-columns: 1fr; }
       .powerplus-grid { grid-template-columns: 1fr !important; }
+      .gen-feature-row { grid-template-columns: 1fr !important; gap: 32px !important; }
     }
   </style>
   <script type="application/ld+json">
@@ -276,11 +277,34 @@
     </div>
   </div>
 
-  <!-- Photo Strip -->
-  <div style="background:var(--gray50);padding:32px 0 0;">
+  <!-- Generac HSB Product Feature -->
+  <div style="background:var(--white);padding:64px 0 0;">
     <div class="container">
-      <div class="photo-strip" style="grid-template-columns:repeat(4,1fr);">
-        <img src="images/Hero AC HSB Hero Image 1_2025.jpg" alt="Generac Air-Cooled Home Standby Generator" loading="lazy" />
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;" class="gen-feature-row">
+        <div>
+          <div class="section-label">Generac Air-Cooled HSB</div>
+          <h2 class="section-title">The Generator Built for Florida Homes</h2>
+          <p style="color:var(--gray600);font-size:.97rem;margin-bottom:24px;line-height:1.7;">The Generac Air-Cooled Home Standby (HSB) is the most popular whole-home generator in Southwest Florida — automatic, reliable, and engineered to handle extended hurricane-season outages without missing a beat.</p>
+          <ul class="check-list" style="margin-bottom:28px;">
+            <li>Starts automatically within 10 seconds of an outage</li>
+            <li>Runs on natural gas or propane — no gasoline</li>
+            <li>WiFi-enabled Mobile Link remote monitoring</li>
+            <li>Available in 11kW, 16kW, 18kW, 20kW, 22kW and 24kW</li>
+            <li>Backed by Generac's factory warranty</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Get Sized &amp; Quoted Free</a>
+        </div>
+        <div>
+          <img src="images/Hero AC HSB Hero Image 1_2025.jpg" alt="Generac Air-Cooled Home Standby Generator Naples FL" style="width:100%;border-radius:var(--radius-lg);display:block;" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Photo Strip -->
+  <div style="background:var(--white);padding:40px 0 0;">
+    <div class="container">
+      <div class="photo-strip">
         <img src="images/generac-install.jpg" alt="Generac generator installation Naples FL" loading="lazy" />
         <img src="images/team-generator-install.jpg" alt="Home Works Now crew placing a Generac generator" loading="lazy" />
         <img src="images/generac-open.jpg" alt="Generac generator commissioning and testing" loading="lazy" />
